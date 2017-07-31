@@ -1,0 +1,79 @@
+.ajax_shop {
+  display: flex;
+  width: 100%;
+  padding-bottom: 60px;
+  height: 600px;
+}
+
+.ajax_shop ul {
+  padding-top: 60px;
+  list-style-type: none;
+}
+
+.ajax_shop ul li {
+  display: block;
+  width: 250px;
+}
+
+.ajax_shop ul li:first-child {
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  width: 240px;
+  padding-bottom: 10px;
+  font-size: 2.4rem;
+  color: #616161;
+}
+
+.ajax_shop ul li {
+  color: #2d96cd;
+  font-size: 1.4rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.vehicles_ul {
+  width: 100%;
+  height: 70px;
+  list-style: none;
+  background: #fbfbfb;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.vehicles_ul li {
+  cursor: pointer;
+  color: #2d96cd;
+  width: 40px;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  display: inline;
+  font-family: font149235;
+}
+
+.cars_flex_ajax {
+  margin: auto;
+  margin-top: 40px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cars_flex_ajax div {
+  width: 150px;
+  height: 200px;
+  text-align: center;
+}
+
+.cars_flex_ajax div img {
+  width: 90%;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.blue_p {
+  color: #2d96cd;
+}
