@@ -10,6 +10,7 @@ $("nav button").click(function() {
   $("nav button span:last-child").toggleClass("menu_button_rotate_2");
   $(".mobile_class ul").slideToggle();
 
+
 })
 $(document).ready(function() {
   if ($(window).width() < 755) {

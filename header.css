@@ -59,6 +59,10 @@ header nav ul li:nth-child(-n+4) img:first-child{
 #secret_li{
   display: none;
 }
+#secret_li h3{
+  margin-top: 0px;
+}
+
 .mobile_profile_logo{
   display: none;
 }
