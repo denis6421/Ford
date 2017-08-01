@@ -80,7 +80,7 @@
   header nav ul {
     width: 80%;
   }
-  .main_footer{
+  .main_footer {
     height: auto;
   }
   .main_footer_wrapper {
@@ -150,8 +150,7 @@
 }
 
 @media only screen and (max-width: 770px) {
-
-    header {
+  header {
     height: 60px;
   }
   header .mobile_class ul {
@@ -163,7 +162,7 @@
     position: fixed;
     left: 0px;
     top: 50px;
-    }
+  }
   header .mobile_class ul li {
     margin: 0px;
     border-bottom: 0.2px solid #2d96cd;
@@ -174,7 +173,6 @@
     align-items: center;
     padding-left: 30px
   }
-
   header .mobile_class ul li a {
     padding-left: 40px;
   }
@@ -197,22 +195,20 @@
   header .mobile_class ul li:nth-child(5) a span:nth-child(2) {
     display: inline-block;
     width: 200px;
-    padding-left:22px;
+    padding-left: 22px;
   }
-  #secret_li{
+  #secret_li {
     display: inline-block;
     width: 100%;
     height: 200px;
     margin-left: 30px;
     border: none;
     padding: 0px;
-
-
   }
-    #secret_li h3,p{
-      color: #616161;
-      font-weight:  100;
-    }
+  #secret_li h3, p {
+    color: #616161;
+    font-weight: 100;
+  }
   .mobile_nav_triangle {
     width: 15px;
     border-top: 2px solid #2d96cd;
@@ -224,7 +220,6 @@
     transform: rotate(45deg);
   }
   header .mobile_class ul li:nth-child(5) {
-
     width: 100%;
   }
   header .mobile_class ul li:nth-child(6) {
@@ -279,51 +274,60 @@
     width: 100%;
     height: 350px;
   }
-
   .carousel-inner div:nth-child(1) img {
-  transform: scale(1.4);
-  margin-top: 30px;
-
+    transform: scale(1.4);
+    margin-top: 30px;
   }
-  .carousel-inner div:nth-child(2) img{
-      transform: scale(1.4);
+  .carousel-inner div:nth-child(2) img {
+    transform: scale(1.4);
   }
-  .carousel-inner div:nth-child(3) img{
-      transform: scale(1.4);
+  .carousel-inner div:nth-child(3) img {
+    transform: scale(1.4);
   }
-  .carousel-inner div:nth-child(4) img{
-      transform: scale(1.4);
-
+  .carousel-inner div:nth-child(4) img {
+    transform: scale(1.4);
   }
-
   .all_vehicles {
     height: 65vw;
     width: 100%;
     position: relative;
+    margin-bottom: 0px;
+  }
+  .all_vehicles a:nth-child(2){
+    font-size: 15px;
+  }
+
+  .all_vehicles a:first-child{
+    font-size: 20px;
+    margin-top: 20px;
+
+
   }
   .all_vehicles img {
     height: 40vw;
     width: 85%;
-    margin-top:25%;
+    margin-top: 13%;
+
   }
+
   .all_vehicles button {
     width: 90%;
     position: absolute;
     left: 5%;
   }
   .let_us {
-    height: 80vw;
+    height: 87vw;
     overflow: hidden;
-    padding-top: 5%;
+
   }
   .let_us img:nth-child(1) {
     height: auto;
     width: 100%;
   }
   .let_us_men {
-    height: auto;
+    height: 80vw;
     padding-top: 9%;
-    transform: scale(1.5);
+    transform: scale(1.6);
     margin-left: 10%;
   }
   .stories {
@@ -374,31 +378,29 @@
   }
   .big_wrapper div:nth-child(1) img {
     width: 100%;
-    height: 55vw;
+    height: 62vw;
   }
-    .big_wrapper div:nth-child(2){
-      display: flex;
-      justify-content: center;
 
-
-    }
   .big_wrapper div:nth-child(2) p {
-  font-size: 15px;
-  margin: 0px;
-  height: 30px;
-  margin-top: 18px;
+    font-size: 15px;
+    margin: 0px;
+    height: 30px;
+    margin-top: 18px;
   }
   .big_section div:last-child {
     width: 100%;
     height: 70vw;
   }
+  .big_wrapper div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    height: 62px;
+  }
   .big_section div:last-child div {
     width: 100%;
     height: 60vw;
   }
-  .big_hidden_section div {
-
-  }
+  .big_hidden_section div {}
   .big_section_span {
     height: 70px;
     background: rgba(63, 127, 191, 0.5);
@@ -413,7 +415,7 @@
     margin-left: 40px;
   }
   .show_all_img {
-    display:  inline-block;
+    display: inline-block;
     width: 100%;
     height: 90px;
   }
@@ -426,7 +428,7 @@
     color: white;
     font-size: 20px;
   }
-  .flex_slide_footer ul:last-child h4{
+  .flex_slide_footer ul:last-child h4 {
     border: none;
   }
   .flex_slide_footer {
@@ -442,19 +444,15 @@
     padding-bottom: 30px;
     width: 100%;
     padding-left: 30px;
-
   }
   .flex_slide_footer ul {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
-
   }
   .flex_slide_footer li {
     padding-left: 30px;
     display: none;
-
-
   }
   .non_slide_footer {
     width: 100%;
@@ -462,139 +460,133 @@
     flex-direction: column;
     margin: 0px;
   }
-  .non_slide_footer li{
+  .non_slide_footer ul li {
     padding-left: 30px;
+      display: none;
+
   }
   .non_slide_footer ul {
     width: 100%;
+  }
+  .main_footer_wrapper ul li {
 
   }
-  .main_footer_wrapper ul li{
-    display: none;
-
-  }
-  .main_footer_wrapper ul{
+  .main_footer_wrapper ul {
     margin: 0px;
-
   }
-  .non_slide_footer ul h4{
-      border-bottom: 1px solid #3a3a3a;
-      width: 100%;
-      padding-bottom: 30px;
-      margin-top: 10px;
-      padding-left: 30px;
+  .non_slide_footer ul h4 {
+    border-bottom: 1px solid #3a3a3a;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    padding-left: 30px;
   }
-  .main_footer_wrapper  {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 30px;
-
+  .main_footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
   }
-
-.upper_footer span {
-  display: none;
-}
-.bottom_footer{
-  height: 240px;
-  position: relative;
-
-}
-.bottom_footer div:first-child {
-  margin-top: 40px;
-  height:100px;
-}
-.bottom_footer div ul{
-margin-top:30px;
-height: 80px;
-align-items: flex-end;
-}
-
-.bottom_footer div:nth-child(2){
-  position: absolute;
-  top: 0px;
-  height: 100px;
-  width: 95%;
-  left: 2.5%;
-  border-bottom: 0.3px solid lightgray;
-}
-.bottom_footer div:nth-child(2) div{
-  margin-top: 0px;
-}
-
-.last_footer{
-  height: auto;
-}
-.last_footer_bottom ul li {
-  width: 100%;
-  padding-left: 10px;
-}
-.last_footer_bottom ul{
-  padding-left: 0px;
-}
-.footer_header{
-  width: 95%;
-}
-
-.footer_header span:nth-child(2){
-  display: none;
-}
-.ford_footer_icon{
-  display: block;
-
-}
-.ford_footer_icon {
-  width: 150px;
-}
-.last_footer_bottom ul li:last-child{
-  margin: 0px;
-  padding-left: 0px;
+  .upper_footer span {
+    display: none;
+  }
+  .bottom_footer {
+    height: 240px;
+    position: relative;
+  }
+  .bottom_footer div:first-child {
+    margin-top: 40px;
+    height: 100px;
+  }
+  .bottom_footer div ul {
+    margin-top: 30px;
+    height: 80px;
+    align-items: flex-end;
+  }
+  .bottom_footer div:nth-child(2) {
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 95%;
+    left: 2.5%;
+    border-bottom: 0.3px solid lightgray;
+  }
+  .bottom_footer div:nth-child(2) div {
+    margin-top: 0px;
+  }
+  .last_footer {
+    height: auto;
+  }
+  .last_footer_bottom ul li {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .last_footer_bottom ul {
+    padding-left: 0px;
+  }
+  .footer_header {
+    width: 95%;
+  }
+  .footer_header span:nth-child(2) {
+    display: none;
+  }
+  .ford_footer_icon {
+    display: block;
+  }
+  .ford_footer_icon {
+    width: 150px;
+  }
+  .last_footer_bottom ul li:last-child {
+    margin: 0px;
+    padding-left: 0px;
+  }
 }
 
-}
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 550px) {
   .let_us {
     height: 80vw;
     overflow: hidden;
-    padding-top: 7%;
+    padding-top: 13%;
   }
   .all_vehicles img {
     height: 40vw;
     width: 85%;
-    margin-top:30%;
+    margin-top: 17%;
+  }
+  .all_vehicles a:nth-child(2){
+    font-size: 12px;
+
   }
   .upper_footer ul {
     display: flex;
     flex-wrap: wrap;
     padding-left: 10px;
   }
-  .upper_footer ul li:nth-child(1){
+  .upper_footer ul li:nth-child(1) {
     width: 100%;
   }
-.stories div:first-child p:first-child{
-  font-size: 15px;
-}
-.let_us_flex{
-  top: 44%;
+  .stories div:first-child p:first-child {
+    font-size: 18px;
+  }
+  .let_us_flex {
+    top: 44%;
     height: 110px;
-}
-.let_us div p {
-  width: 100%;
-  height: 22%;
-  font-size: 4vw;
-}
 
-.let_us button {
-  height: 20%;
-    width: 30%;
-  font-size: 2vw;
-}
-.carousel-inner {
-  width: 100%;
-  height: 60vw;
-  margin-bottom: 20px;
-}
-.carousel-inner img {
-
-}
+  }
+  .let_us div p {
+    width: 100%;
+    height: 22%;
+    font-size: 5vw;
+  }
+  .let_us button {
+    height: 30%;
+    width: 40%;
+    font-size: 3vw;
+  }
+  .carousel-inner {
+    width: 100%;
+    height: 60vw;
+    margin-bottom: 20px;
+  }
+  .carousel-inner img {}
 }

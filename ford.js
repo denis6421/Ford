@@ -44,7 +44,7 @@ $(window).resize(function(){
     if ($(window).width() > 770){
       $(".non_slide_footer ul li").css("display","block");
       $(".big_section").css("display", "inline-flex");
-    }else if ($(window).width() < 750) {
+    }else if ($(window).width() < 770) {
         $(".non_slide_footer ul li").css("display","none");
     }
 });
