@@ -5,17 +5,17 @@
 
 .carousel-inner {
   width: 100%;
-  height: 40vw;
+  height: 45vw;
 }
 
 .carousel-inner img {
   width: 100%;
   height: 100%;
 }
-
-.carousel-inner img:nth-child(2) {
-  zoom: (0.5);
+.carousel-inner div:first-child img{
+  transform: scale(1.08);
 }
+
 
 .all_vehicles {
   width: 90%;
@@ -69,17 +69,18 @@
 
 .let_us {
   position: relative;
-  height: 66vw;
+  height: 70vw;
+
 }
 
 .let_us a img {
   width: 100%;
-  height: auto
+  height: auto;
 }
 
 .let_us img {
   width: 100%;
-  height: 50vw;
+  height: 54vw;
 }
 
 .let_us_flex {
@@ -229,7 +230,7 @@
 .big_wrapper div:nth-child(2) {
   background: rgba(51, 102, 153, 0.4);
   width: 100%;
-  height: 4.8vw;
+  height: 62px;
 }
 
 .big_wrapper div:nth-child(2) p {
@@ -238,6 +239,7 @@
   font-size: 22px;
   margin-left: 25px;
   margin-top: 2%;
+  height: 40px;
 }
 
 .big_section_span {

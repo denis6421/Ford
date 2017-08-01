@@ -40,6 +40,10 @@
   align-items: center;
   border-bottom: 1px solid #cbcbcb;
 }
+.vehicles_ul ul{
+  width: 100%;
+  text-align: center;
+}
 
 .vehicles_ul li {
   cursor: pointer;

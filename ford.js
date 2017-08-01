@@ -21,7 +21,7 @@ $(document).ready(function() {
 $(window).resize(function() {
   if ($(window).width() > 755) {
     $(".mobile_class ul").css("display", "block");
-  } else if ($(window).width() < 755) {
+  }  if ($(window).width() < 755) {
     $(".mobile_class ul").css("display", "none");
 
   }
@@ -42,6 +42,7 @@ $('.sliding_h4_new').on("click", function() {
 $(window).resize(function(){
     if ($(window).width() > 770){
       $(".non_slide_footer ul li").css("display","block");
+      $(".big_section").css("display", "inline-flex");
     }else if ($(window).width() < 750) {
         $(".non_slide_footer ul li").css("display","none");
     }
