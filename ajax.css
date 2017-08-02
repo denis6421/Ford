@@ -1,6 +1,7 @@
 .ajax_shop {
   display: flex;
   width: 100%;
+justify-content: space-around;
   padding-bottom: 60px;
   height: 600px;
 }
@@ -8,11 +9,12 @@
 .ajax_shop ul {
   padding-top: 60px;
   list-style-type: none;
+  width: 20%;
 }
 
 .ajax_shop ul li {
   display: block;
-  width: 250px;
+  width: 100%;
 }
 
 .ajax_shop ul li:first-child {
